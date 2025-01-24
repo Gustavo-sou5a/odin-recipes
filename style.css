@@ -1,42 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: rgb(145, 242, 255);
+    background-color: wheat;
 }
 
-ul {
+ul, ol {
     font-family: 'Courier New', Courier, monospace;
-}
-
-ol {
-    font-family: 'Lucida Handwriting', cursive;
 }
 
 h1 {
     font-family:'Times New Roman', Times, serif;
-    text-align: center;
     font-size: 40px;
+    margin: 20px;
+    text-align: center;
 }
 
 h2 {
-    background-color: rgb(230, 92, 119);
-    color: white;
+    background-color: #FF7F50;
+    height: auto;
+    text-align: center;
+    padding: 5px;
 }
 
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 a {
     font-size: 24px;
+    text-decoration: none;
 }
 
-.img {
-    text-align: center;
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    height: 60px;
+    width: 300px;
 }
 
 #ingredients {
-    background-color: yellow; 
+    background-color: #FF7F50; 
 }
 
 #steps {
-    background-color: lightgreen;
+    background-color: #FF7F50;
+}
+
+#title {
+    margin: 60px;
+    text-align: center;
+}
+
+#home {
+    text-decoration: underline;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 10px;
 }
